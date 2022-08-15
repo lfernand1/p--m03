@@ -7,4 +7,4 @@ route.post('/create', controllerPaletas.createPaletaController);
 route.put('/update/:id', controllerPaletas.updatePaletaController);
 route.delete('/delete/:id', controllerPaletas.deletePaletaController);
 
-exports.module = route;
+module.exports = route;
